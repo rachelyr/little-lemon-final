@@ -1,0 +1,28 @@
+.highlights{
+    width:100%;
+    margin-top: 10%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 300px;
+    margin-right: 180px;
+}
+
+.head .btn{
+    align-items: right;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.card-component{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+}

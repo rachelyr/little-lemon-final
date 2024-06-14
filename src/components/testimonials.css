@@ -1,0 +1,46 @@
+.testimonial{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #495E57;
+}
+
+.testimonial h1{
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+.box{
+    background-color: #FBDABB;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    margin: 50px 120px 50px 120px;
+    padding: 200px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.profile{
+    margin: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.profile h3{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.profile p{
+    font-size: 20px;
+}
+
+.profile img{
+    max-width: 80px;
+    border-radius: 5%;
+}
+
