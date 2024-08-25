@@ -1,0 +1,264 @@
+.booking-content{
+    display: flex;
+}
+
+/* body{
+    background: #495E57;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+} */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#booking-form h2{
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main{
+    padding: 140px 0;
+    position: relative;
+    background: #495E57;
+}
+/*
+.container{
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: ;
+    border-radius: 10px;
+} */
+
+.booking-content{
+    flex-wrap: nowrap;
+    width: 70%;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0 10px 9.9px .1px rgba(0,0,0,.05);
+    border-radius: 10px;
+    height: 890px;
+    /* -ms-flex-wrap: wrap; only this worked */
+}
+
+.booking-image{
+    width: 58.88%;
+    margin-bottom: -8px;
+}
+
+.booking-img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.booking-form{
+    width: 42%;
+    background: #111;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.form-radio {
+    margin-bottom: 40px;
+    padding-top: 20px
+}
+
+.form-radio input {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -9999px
+}
+
+.form-radio label {
+    padding-top: 4px
+}
+
+.form-radio input+label {
+    margin: 0 3px;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    border: solid 2px #ebebeb;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #888;
+    text-align: center;
+    transition: border-color .15s ease-out,color .25s ease-out,background-color .15s ease-out,box-shadow .15s ease-out;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%
+}
+
+.form-radio input:checked+label {
+    background-color: #111;
+    color: #fff;
+    border-color: #111;
+    z-index: 1
+}
+
+.form-radio input:focus+label {
+    outline: none
+}
+
+.form-radio input:hover {
+    background-color: #111;
+    color: #fff;
+    border-color: #111
+}
+
+.radio-item-list {
+    margin: 0 -3px
+}
+
+.active {
+    position: relative;
+    background: #edb77d;
+    padding: 14px 1px;
+    margin-right: 7px;
+    margin-left: 3px;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -o-border-radius: 24px;
+    -ms-border-radius: 24px
+}
+
+.active:after {
+    position: absolute;
+    content: 'Person';
+    right: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    font-size: 15px;
+    color: #222;
+    font-weight: 700
+}
+
+.active input+label {
+    margin-right: 59px
+}
+
+form{
+    padding: 50px 70px 70px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-input{
+    padding-top: 21px;
+}
+
+.form-label{
+    position:  relative;
+    transition: .25s ease;
+    color: #bebebe;
+    left: 0;
+    top: 23px;
+    font-size: 22px;
+}
+
+/* .form-group input{
+
+} */
+
+.form-group input[type="time"]::-webkit-calendar-picker-indicator {
+    background-color: #edb77d;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+
+.form-group input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: #edb77d;
+    margin-bottom: 5px;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 50%;
+  }
+
+ input{
+    padding-top: 10px;
+    background-color: #111;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #000 inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+input:focus+.form-label, input:valid+.form-label{
+    top: 1px;
+    font-size: 11px;
+    color: #495E57;
+}
+
+input, select{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    background: 0 0;
+    border-bottom: 1px solid #999;
+    padding: 4px 0;
+}
+
+input:focus, select:focus{
+    border-bottom: 1px solid #495E57;
+}
+
+.submit{
+    width: auto;
+    background: #495E57;
+    color: #fff;
+    padding: 15px 43px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background: #495E57;
+}
+
+.label-radio{
+    display: block;
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+.verify_booking{
+    color: #fff;
+    display: flex;
+    font-size: 19px;
+}
